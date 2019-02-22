@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!--<referenceBlock name="product.info.addto" remove="true"/>-->
+        <!--<referenceBlock name="product.info.social" remove="true"/>-->
+        <!--<referenceBlock name="view.addto.compare" remove="true"/>-->
+        <!--<referenceBlock name="page.main.title" remove="true"/>-->
+        <!--<referenceBlock name="page.main.title" remove="true"/>-->
+        <!--<referenceBlock name="product.info.addtocart" remove="true"/>-->
+        <!--<referenceBlock name="checkout_page_head_components" remove="true"/>-->
+        <!--<referenceBlock name="category.products.list" remove="true"/>-->
+        <!--<referenceBlock name="head.components" remove="true"/>-->
+        <!--<referenceBlock name="product.info.simple.extra" remove="true"/>-->
+        <move element="view.addto.compare" destination="header.panel" />
+        <move element="page.main.title" destination="page.top" />
+
+    </body>
+</page>
